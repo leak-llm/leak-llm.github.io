@@ -3,7 +3,8 @@
 
 @import "{{ site.theme }}";
 
-.inner {
-  max-width: 75%;
+@media screen and (min-width: 64em) {
+  .main-content {
+    max-width:75%;
+  }
 }
-
